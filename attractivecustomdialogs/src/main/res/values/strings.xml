@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AttractiveCustomDialogs</string>
+    <string name="selectImgFromGallery"><font color="#0073CD" size="12">Select the Image from Gallery</font>\n<font color="#A9A9A9" size="10">PNG, JPEG or PDF</font></string>
+</resources>
