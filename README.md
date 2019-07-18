@@ -1,4 +1,4 @@
-# Attractive-Custom-Dialogs
+# Attractive-Custom-Dialogs-Library
 This repository includes some custom dialogs for Android
 ## Gradle Setup
 ```
