@@ -2,4 +2,4 @@
 This repository includes some custom dialogs for Android
 
 ### Camera and Gallery Dialog:
-<img src="https://raw.githubusercontent.com/rashidafzaal/ServEase-FYP/master/screenshots/cameraGallery.jpg" height="280" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/ServEase-FYP/master/screenshots/cameraGallery.jp" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/cameraGallery.jpg" height="280" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/cameraGallery.jpg" style="max-width:100%;">
