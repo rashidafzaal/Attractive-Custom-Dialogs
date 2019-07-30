@@ -1,8 +1,13 @@
 package com.example.attractivecustomdialogs;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.content.Context;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,7 +18,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //clickNow();
-        openTermsDialog();
+        //openTermsDialog();
+        showToast();
+        AttractiveCustomDialogs.setStatusBarColor(this, ContextCompat.getColor(this, R.color.black));
+    }
+
+    private void showToast() {
+        AttractiveCustomDialogs.showCustomToast(this, "A White text with Black background");
     }
 
     private void openTermsDialog() {
@@ -42,4 +53,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }

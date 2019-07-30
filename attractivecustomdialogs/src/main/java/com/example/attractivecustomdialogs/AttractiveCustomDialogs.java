@@ -1,11 +1,17 @@
 package com.example.attractivecustomdialogs;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.graphics.PorterDuff;
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.core.content.ContextCompat;
 
 public class AttractiveCustomDialogs {
 
@@ -57,6 +63,21 @@ public class AttractiveCustomDialogs {
             }
         });
 
+    }
+
+    public static void showCustomToast(Context thisContext, String message) {
+        Toast toast = Toast.makeText(thisContext, message, Toast.LENGTH_SHORT);
+        View view = toast.getView();
+        view.getBackground().setColorFilter(thisContext.getResources().getColor(R.color.black), PorterDuff.Mode.SRC_IN);
+        TextView text = view.findViewById(android.R.id.message);
+        text.setTextColor(thisContext.getResources().getColor(R.color.white));
+        toast.show();
+    }
+
+    public static void setStatusBarColor(Activity thisContext, int color) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            thisContext.getWindow().setStatusBarColor(color);
+        }
     }
 
 }
