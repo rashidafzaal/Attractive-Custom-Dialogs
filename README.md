@@ -69,3 +69,16 @@ AttractiveCustomDialogs.showCustomToast(this, "A White text with Black backgroun
 ``` 
 <br/>
 <img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/3.jpg" height="200" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/3.jpg" style="max-width:35%;">
+
+## 4. Status Bar Color:
+:heavy_check_mark: Pass parameters 
+<br/>&emsp;&emsp;&emsp;&emsp;
+            1. Context
+            <br/>&emsp;&emsp;&emsp;&emsp;
+            2. color to set
+```java
+AttractiveCustomDialogs.setStatusBarColor(this, ContextCompat.getColor(this, R.color.black));
+``` 
+<br/>
+<img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/4.jpg" height="125" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/4.jpg" style="max-width:25%;">
+
