@@ -1,10 +1,22 @@
 # Attractive-Custom-Dialogs-Library
 This repository includes some custom dialogs for Android
 ## Gradle Setup
+Add it in your root build.gradle at the end of repositories:
 ```
-Coming soon as a Library
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
 ```
 
+Add the dependency:
+```
+dependencies {
+     implementation 'com.github.rashidafzaal:Attractive-Custom-Dialogs-Library:1.0'
+}
+```
 
 ## Things to do:
 
