@@ -13,7 +13,7 @@ Coming soon as a Library
 
 
 
-### 1. Camera and Gallery Dialog:
+## 1. Camera and Gallery Dialog:
 :heavy_check_mark: Pass parameters 
 <br/>&emsp;&emsp;&emsp;&emsp;
             1. Context
@@ -34,7 +34,7 @@ AttractiveCustomDialogs.cameraGalleryDialog(MainActivity.this, new AttractiveCus
 <br/>
 <img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/1.jpg" height="380" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/1.jpg" style="max-width:100%;">
 
-### 2. Privacy and Terms Dialog:
+## 2. Privacy and Terms Dialog:
 :heavy_check_mark: Pass parameters 
 <br/>&emsp;&emsp;&emsp;&emsp;
             1. Context
@@ -56,4 +56,16 @@ AttractiveCustomDialogs.privacyTermsDialog(this,
         });
 ``` 
 <br/>
-<img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/2.jpg" height="380" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/1.jpg" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/2.jpg" height="380" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/2.jpg" style="max-width:100%;">
+
+## 3. Custom Toast:
+:heavy_check_mark: Pass parameters 
+<br/>&emsp;&emsp;&emsp;&emsp;
+            1. Context
+            <br/>&emsp;&emsp;&emsp;&emsp;
+            2. message (text to be displayed)
+```java
+AttractiveCustomDialogs.showCustomToast(this, "A White text with Black background");
+``` 
+<br/>
+<img src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/3.jpg" height="200" data-canonical-src="https://raw.githubusercontent.com/rashidafzaal/Attractive-Custom-Dialogs-Library/master/screenshots/3.jpg" style="max-width:35%;">
