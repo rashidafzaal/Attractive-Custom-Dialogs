@@ -4,5 +4,6 @@
     <color name="colorPrimary">#003661</color>
     <color name="myBlueColor">#0073CD</color>
     <color name="white">#fff</color>
+    <color name="black">#000</color>
 
 </resources>
